@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Pizza Montenegro</title>
+   <meta charset ="ISO-8859-7">
+   <link rel="stylesheet" href="Style1.css" type="text/css">
+   <link rel="shortcut icon" href="favicon.ico" type="image/ico"/>
+   <script type="text/javascript" src="Pizzaria1.js">
+      
+  
+		  
+	
+
+
+		
+	 
+ 
+   
+   
+   </script>
+   
+</head>
+<body width="100%"  >
+    <header class="mainheader">
+	      <a href="Pizzaria1.html"><img src="head.jpg" width="70px" height="60px" align="left" id="logo"></a>
+    </header>
+	 <nav>
+	  <div class="nav">
+		 <ul>
+	     <li>
+		 <a href="#Pizzaria.html" id="home1">
+		 <img src="home1.jpg">
+		 <br>
+		 <span>Αρχική</span>
+		 </li>
+		 <li>
+		 <a href="#"  >
+		 <img src="home2.jpg">
+		 <br>
+		 <span>Πληροφορίες</span>
+		 </li>
+		 <li>
+		 <a href="#" id="home1">
+		 <img src="home3.jpg">
+		 <br>
+		 <span>Προσφορές</span>
+		 </li>
+		  <li>
+		 <a href="#">
+		 <img src="home4.jpg" id="home1" >
+		 <br>
+		 <span>Καταστήματα</span>
+		 </li>
+	    
+	     </ul>
+      </div>
+	  
+	  </nav>
+	  <section>
+	     <article>
+		     
+			 <br>
+		 
+		     <table id="first" >
+			    <tr>
+				     <td>
+					     <table id="first1">
+						         <tr > 
+								     <td id="pizza_icon2" >
+									     <form action="#personal1">
+										    <fieldset id="pizza_icon" style="width:900px;font-size:17px;color:black;">
+											<legend>Πρώτο Βήμα:Φτιάξτε την πίτσα σας!</legend>
+											
+								             
+											
+										    	<label for="image"></label>
+				
+			                               <img  src="baker1.jpg" style="position:absolute;top:50px;left:600px;"   id="image"/>
+				                           <img  src="souce1.jpg" style="position:absolute;top:50px;left:600px;" id="image"/>
+				                           <img  src="cheese1.jpg" style="position:absolute;top:50px;left:600px;" id="image"/>
+				                           <img  src="me0.jpg" style="position:absolute;top:50px;left:600px;visibility: hidden;" id="0"/>
+				                           <img  src="me1.jpg" style="position:absolute;top:50px;left:600px;visibility: hidden;" id="1"/>
+				                           <img  src="me2.jpg" style="position:absolute;top:50px;left:600px;visibility: hidden;" id="2"/>
+				                           <img  src="me3.jpg" style="position:absolute;top:50px;left:600px;visibility: hidden;" id="3"/>
+				                           <img  src="me4.jpg" style="position:absolute;top:50px;left:600px;visibility: hidden;" id="4"/>
+				                           <img  src="me5.jpg" style="position:absolute;top:50px;left:600px;visibility: hidden;" id="5"/>
+				                           <img  src="me6.jpg" style="position:absolute;top:50px;left:600px;visibility: hidden;" id="6"/>
+				                           <img  src="me7.jpg" style="position:absolute;top:50px;left:600px;visibility: hidden;" id="7"/>
+			
+											 
+											 
+							                <div style="cursor:default;width:950px;">
+											       <img src="meat1.jpg" style="width:40px;">
+			                                       <input type="checkbox" name="selected" value="1.40" id="0" onClick="selectMeat('0');" onchange="calculateTotal(this)"  >Λουκάνικο Τιμή:1,40 <br>
+			                                      </input>
+			 
+				                                   <img src="meat2.jpg" style="width:40px;" style="potition:absolute;left:40px" > 
+				                                  <input type="checkbox" name="selected" value="1.50" id="1" onClick="selectMeat('1');" onchange="calculateTotal(this)"  >Γαλοπούλα Τιμή:1,50 <br>
+			                                      </input>
+			 
+				                                 <img src="meat3.jpg" style="width:40px;" > 
+				                                 <input type="checkbox" name="selected" value="1.20" id="2" onClick="selectMeat('2');" onchange="calculateTotal(this)"  >Πεπερόνη  Τιμή:1,20<br>
+                                                 </input>
+			 
+				                                <img src="meat4.jpg" style="width:40px;" > 
+				                                <input type="checkbox" name="selected" value="1.50" id="3"  onClick="selectMeat('3');" onchange="calculateTotal(this)"  >Μπέικον Τιμή:1,50 <br>
+			                                    </input>
+				 
+											
+           
+	                                             <img src="veg1.jpg" style="width:40px;"  >  
+			                                     <input type="checkbox" name="selected" value="0.50" id="4" onClick="selectMeat('4');" onchange="calculateTotal(this)"  >Πιπεριά Τιμή:0,50  <br>
+			                                     </input>
+			
+				                                 <img src="veg2.jpg" style="width:40px;">
+				                                 <input type="checkbox" name="selected" value="0.30"  id="5" onClick="selectMeat('5');"  onchange="calculateTotal(this)"  >Μανιτάρια 
+				                                 Τιμή:0,30 <br>
+												 </input>
+			
+			                                     <img src="veg3.jpg" style="width:40px;" >  
+			                                     <input type="checkbox" name="selected" value="0.70" id="6" onClick="selectMeat('6');" onchange="calculateTotal(this)"  >Πατάτες Τιμή:0,70  <br>
+			                                     </input>
+			
+				                                 <img src="veg4.jpg" style="width:40px;" >
+				                                <input type="checkbox" name="selected" value="0.30"  id="7" onClick="selectMeat('7');"  onchange="calculateTotal(this)"  >Ελιές Ροδέλα 
+				                                Τιμή:0,30 <br> 
+												</input>
+											</div>
+		                                    <div>
+		                                         <select id="filling" name="selected" onchange="nums()" >
+		                                               <option value="none">Αριθμός Τεμαχίων</option>
+		                                               <option value="1"> Ένα Τεμάχιο</option>
+			                                           <option value="2"> Δύο Τεμάχια</option>
+	                                                   <option value="3"> Τρία Τεμάχια</option>
+			                                           <option value="4"> Τέσσερα Τεμάχια</option>
+	                                             </select>
+		   
+	
+	                                        </div>
+											<div id="delivery_mode" name ="selected" onchange="expressDelivery()">
+		                                         <img src="delivery.jpg" width="70px"><br>
+			                                     <input type="checkbox" name="delivery" id="delivery_money">Παράδοση Express</input>
+			
+			
+	                                        </div>
+	
+	
+	                                     <div id="random" >
+		 
+		                                       <input type="button" id="random_button" value="Τυχαία Επιλογή Πίτσας" onClick="randomSelect();" > </input>
+	    
+	                                      </div> 
+										  <div id="disable_button7">
+	                                                  <input type="button" id="disable_button7" value="Επόμενο Βήμα" onClick="disableButton();"  ></input>
+		                                  </div>
+		                            </fieldset>
+								</form>
+							</td>
+						</tr>
+						<tr>
+						     <td>
+							     <table>
+								     <tr>
+									      <td>
+		                                     <form action="#earn_money" >
+											     <fieldset style="font-size:17px;color:black;width:950px;" id="fieldset2" disabled >  
+												     <legend>Βήμα 2: Προσωπικά στοιχεία </legend>
+												    <div id="personal1" style="cursor:default;">
+		     
+				     
+					                                    <strong style="font-size:15px;" >'Ονομα:</strong><br>
+					                                    <input type="text" name="firstname" value="Χρήστος" id="personal1" required><br></input>
+					                                    <strong style="font-size:15px;" >Επώνυμο:</strong><br>
+					                                    <input type="text" name="lastname" value="Μάρκελλος" required><br></input>
+					                                    <strong style="font-size:15px;" >Τηλέφωνο:</strong><br>
+					                                    <input type="text" name="number" value="2102446339" pattern="[0-9]{10}" required><br></input>
+					                                    <strong style="font-size:15px;" >Email:</strong><br>
+					                                    <input type="text" name="email" value="kitsos-7@hotmail.com" required><br></input>
+		                                             </div>
+													 <br>
+													 
+													 <div id="personal2" >
+		                                                 <legend style="font-size:15px;"> Στοιχεία διεύθυνσης παράδοσης	</legend>
+					                                     <strong style="font-size:15px;"   >Οδός:</strong><br>
+					                                     <input type="text" name="text" value="Σοφικό" required><br></input>
+					                                     <strong style="font-size:15px;"  >Αριθμός οδού:</strong><br>
+					                                     <input type="number" name="number" value="14"  maxlength="4" required><br></input>
+					                                     <strong style="font-size:15px;" >Ταχυδρομικός Κώδικας:</strong><br>
+					                                     <input type="text" name="number" value="20004" pattern="[0-9]{5}" required><br></input>
+					                                     <strong style="font-size:15px;" >Περιοχή:</strong><br>
+					                                     <input type="text" name="text" value="Κόρινθος" required><br></input>
+		
+		                                             </div>
+                                                     		 
+		                                             <div id="personal3">
+		                                                <legend> Εισάγετε σχόλια/διευκρινήσεις	</legend>	  
+					                                    <textarea name="text" rows="10" cols="30">
+							                                  Εισάγετε τα σχόλια σας ΕΔΩ!
+					                                    </textarea>
+		
+		                                             </div>
+		                                       
+												<div id="disable_button5">
+	                                                 <input type="submit" id="disable_button5"  value="Προηγόυμενο Βήμα"  onClick="disableButton1();"   ></input>
+		                                        </div>
+		
+		                                        <div id="disable_button6">
+	                                                  <input type="submit" id="disable_button6" value="Επόμενο Βήμα"  onClick="disableButton2();"  ></input>
+		                                        </div>
+												</fieldset>
+		                                    </form>
+										</td>
+								    </tr>
+									<tr>
+									    <td>
+									    <form>
+										      <fieldset id="fieldset1" disabled >
+											     <legend style="font-size:17px;color:black;">Βήμα 3:Τρόποι πληρωμής</legend>
+		                                            <label for = "visa" > <img src = "visa.jpg" width = "30px" > </label>
+													<input type = "radio" name = "creditcard"  value = "visa" checked></input>
+													<label for = "masterCard" > <img src = "mastercard.jpg" width = "30px"> </label>
+													<input type = "radio" name = "creditcard"  value = "masterCard"></input>
+													<br>
+	                                                <label for = "creditcards" style="font-size:15px;"> Εισάγετε κωδικό κάρτας: </label> 
+	                                                <input type="text" name="number" minlength="4" size="7"  pattern="[0-9]{4}" required="required"></input>
+								                    <input type="text" name="number" minlength="4"  size="7" pattern="[0-9]{4}" required="required" ></input>
+								                    <input type="text" name="number" minlength="4" size="7" pattern="[0-9]{4}" required="required" ></input>
+								                    <input type="text" name="number" minlength="4" size="7" pattern="[0-9]{4}" required="required" ></input>
+		                                            <br>
+													<br>
+													<br>
+													<label for = "name" > Ονοματεπώνυμο Κάρτας: </label>
+													<input type = "text" name = "credit" id = "fullName" style = "width : 230px;" required="required"  ></input> <br>
+													<br>
+													<legend style="position:absolute;left:570px;top:640px;color:red;">Ξύστε και κερδίστε!!!</legend>
+													<table id="earn_money" style="position:absolute;left:570px;top:660px; border-style: solid;border-width: 5px;border-color:yellow;">
+													<tr>
+													     <td>
+														     <img  src="offers.jpg" name="image" id="0" onclick="offer('0')"  style="width:40px;opacity:2;">
+														 </td>
+														 <td>
+														     <img  src="offers.jpg" id="1" name="image"  onclick="offer('1')"  style="width:40px;opacity:2;" >
+														 </td>
+														 <td>
+														     <img  src="offers.jpg" id="2" name="image"  onclick="offer('2')"    style="width:40px;opacity:2;" >
+														 </td>
+													</tr>
+													<tr>
+													     <td> 
+														     <img src="offers.jpg"  id="3" name="image" onclick="offer('3')"   style="width:40px;opacity:2;" >
+														 </td>
+														 <td>
+														     <img src="offers.jpg"  id="4" name="image"  onclick="offer('4')"   style="width:40px;opacity:2;" >
+														 </td>
+														 <td>
+														     <img  src="offers.jpg" id="5" name="image" onclick="offer('5')"  style="width:40px;opacity:2;" >
+														 </td>
+													</tr>
+													<tr>
+													     <td>
+														     <img src="offers.jpg" id="6" name="image"  onclick="offer('6')"   style="width:40px;opacity:2;" >
+														 </td>
+														 <td>
+														     <img src="offers.jpg" id="7" name="image"  onclick="offer('7')"   style="width:40px;opacity:2;" >
+														 </td>
+														 <td>
+														     <img src="offers.jpg" id="8"  name="image" onclick="offer('8')"   style="width:40px;opacity:2;" >
+														 </td>
+													</tr>
+												    </table>
+											         <div id="disable_button8">
+	                                                     <input type="button" id="disable_button8"  value="Προηγόυμενο Βήμα" onClick="disableButton3();"   ></input>
+		                                             </div>
+		
+		                                             <div id="disable_button9">
+	                                                    <input type="submit" id="disable_button9" value="Επιβεβαίωση Παραγγελίας" onClick="result();"  ></input>
+		                                             </div>
+													
+												</fieldset>
+											
+											</form>
+											</td>
+										</tr>
+										<tr>
+										    <td>
+											   <table>
+											       <tr>
+												   <td>
+												   
+                                                     <label for="subtotal"></label>
+													 <p id="euro" style="position:absolute;top:60px;left:1090px;color:red;">&euro;</p>
+													 <p id="subtotal"   >  0
+													 <h2>Συνολικό Ποσο<br>(χωρίς έκπτωση):<br><br>  </h2>
+													
+													 </p>
+													</td>
+													
+												    </tr>
+												</table>
+											</td>
+											<td>
+											   <table>
+											       <tr>
+												   
+													<td>
+													<label for="subtotal1"></label>
+													<p id="euro" style="position:absolute;top:170px;left:1090px;color:red;">&euro;</p>
+													<p  id ="subtotal1"> 0
+													<h3>Συνολικό Ποσο<br>(Προσφοράς):<br><br>  </h3>
+													</p>
+													 </td>
+													</tr>
+													</table>
+											</td>
+											<td>
+											   <table>
+											       <tr>
+												   
+													<td>
+													<label for="subtotal2"></label>
+													<p id="euro" style="position:absolute;top:280px;left:1090px;color:red;">&euro;</p>
+													<p  id ="subtotal2">  0
+													<h4>Συνολικό Ποσο<br>(Μεταφορικών):<br><br>  </h4>
+													</p>
+													 </td>
+													</tr>
+													</table>
+											</td>
+											<td>
+											   <table>
+											      <tr>
+												   <td>
+													 <label for="subtotal3"></label>
+													 <p id="euro" style="position:absolute;top:390px;left:1090px;color:red;">&euro;</p>
+													 <p id="subtotal3" >0
+													 <h5>Συνολικό Ποσο<br>(Οφειλής):<br><br>  </h5>
+													 
+													 </p>
+												   </td>
+												   </tr>
+												 </table>
+											</td>
+										</tr>
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+									</table>
+								</td>
+							</tr>
+						</table>
+						</td></tr>
+						</table>
+		                                           
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		            </article>
+				</section>
+		 <footer>
+				<div class="footer1" style="width:95%;" >
+				       
+				       <img src="head.jpg" id="logo" width="60px">
+					   <br>
+					   &copy;2016
+					   "'Ωρες λειτουργίας"
+					   <span>11:00-24:00</span>
+					   <br>
+					   "Δωρεάν επικοινωνία με"
+					   <br>
+					   <span>Vodafone:6949803256</span>
+					   <br>
+					   <span>Cosmote:6986743597</span>
+					   
+					   <br>
+					   <a href="https://www.facebook.com/www.montenegro.com" target="_blank">
+					   <img src="facebook.jpg" width="30px">
+					   
+					 
+					  
+					      <p>
+			               Οι τιμές online είναι οι τελικές τιμές<br> συμπεριλαμβανομένου του Φ.Π.Α., 
+			               μετά από όλες τις εκπτώσεις (και του εκπτωτικού κουπονιού 50%),<br> και δεν ισχύουν για τηλεφωνικές παραγγελίες. 
+			              
+		                 <p>
+					   
+					
+				</div>	
+				
+				
+				
+				
+				
+				</footer>
+		
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	
+		
+		
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  </body>
+	  </html>

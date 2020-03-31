@@ -1,0 +1,85 @@
+.nav{
+	margin-top:0px;
+	height:60px;
+	background:green;
+	width:100%;
+	float:center;
+	font-size:13px;
+	
+	
+}
+#home1{
+	margin-top:10px;
+}
+.nav ul{
+	margin :0;
+	padding:0;
+}
+.nav ul li{
+	list-style:none;
+}
+.nav ul li a{
+	text-decoration:none;
+	float:left;
+	display:block;
+	padding:10px 20px;
+	color:white;
+}
+.nav ul li a:hover{
+	color:lightblue;
+	
+}
+
+#logo:hover{ opacity: 0.7; }
+
+
+body{
+	padding:0px;
+	width:100%;
+	background:url("body1.jpg") 0% 0% ;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:100%;
+	
+}
+
+h1{
+  padding:10px 50px;
+  border-radius: 3px;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  float:center;
+  size:10px;
+  text-align:center;
+}
+.eat{
+	position:absolute;
+	left:450px;
+	padding-top: .4em;
+    padding-right: 45px;
+    padding-bottom: .6em;
+    padding-left: 45px;
+    font-size: 35px;
+    font-weight: 500px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    background: red;
+    opacity: 0.7;
+    transition: opacity 0.4s;
+	
+}
+.eat:hover{
+	opacity:0.9;
+	color:lightred;
+}
+.footer1{
+	position:absolute;
+	bottom:0px;
+	color:black;
+	font-size:15px;
+	background-color:white;
+	opacity:0.6;
+
+}
